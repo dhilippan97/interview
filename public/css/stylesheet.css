@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px;
+  width: 100%
+}
+
+td, tr {
+  border: 1px solid black;
+  height: 40px
+}
+
+label {
+  margin-left: 10px;
+}
+
+button {
+  background-color: yellow;
+  margin-left: 10px;
+}
+
+input {
+  width: 200px;
+  height: 45px;
+  font-size: 25px;
+  margin-right: 100px;
+  margin-left: 10px;
+  margin-bottom: 10px
+}
+
+.table1 {
+  height: 50px;
+  background-color: grey;
+  width: 96%
+}
+
+.table2 {
+  margin-right: 42px;
+  float: left;
+  position: static;
+  width: 29%
+}
+
+.table-title {
+  border: 1px solid black;
+  background-color: grey;
+  padding: 10px;
+  margin: 10px 0 30px
+}

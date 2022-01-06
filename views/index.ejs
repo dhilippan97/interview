@@ -1,0 +1,54 @@
+<%- include('partials/header.ejs'); -%>
+<table class="table1">
+  <td>Aeroplane Front</td>
+</table>
+<nav>
+  <table class="table2">
+    <caption class="table-title">Coloumn A</caption>
+    <colgroup>
+      <col span="1" style="background-color: blue">
+      <col span="1" style="background-color: orange">
+      <col span="1" style="background-color: green">
+    </colgroup>
+    <% for(let i=0;i<colAm.length;i++) { %>
+    <tr>
+      <td> <%=colAf[i]%> </td>
+      <td><%=colAm[i]%></td>
+      <td><%=colAl[i]%></td>
+    </tr>
+    <%  }%>
+  </table>
+  <table class="table2">
+    <caption class="table-title">Coloumn B</caption>
+    <colgroup>
+      <col span="1" style="background-color: green">
+      <col span="1" style="background-color: orange">
+      <col span="1" style="background-color: orange">
+      <col span="1" style="background-color: green">
+    </colgroup>
+    <% for(let i=0;i<colAm.length;i++) { %>
+    <tr>
+      <td><%=colBf[i]%></td>
+      <td><%=colBm1[i]%></td>
+      <td><%=colBm2[i]%></td>
+      <td><%=colBl[i]%></td>
+    </tr>
+    <%  }%>
+  </table>
+  <table class="table2">
+    <caption class="table-title">Coloumn C</caption>
+    <colgroup>
+      <col span="1" style="background-color: green">
+      <col span="1" style="background-color: orange">
+      <col span="1" style="background-color: blue">
+    </colgroup>
+    <% for(let i=0;i<colAm.length;i++) { %>
+    <tr>
+      <td><%=colCf[i]%></td>
+      <td><%=colCm[i]%></td>
+      <td><%=colCl[i]%></td>
+    </tr>
+    <%  }%>
+  </table>
+</nav>
+<%- include('partials/footer.ejs'); -%>
